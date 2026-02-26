@@ -314,6 +314,8 @@ h2::after {
 
 .card:hover .project-thumbnail { transform: scale(1.05); }
 
+.project-thumbnail-wrapper { overflow: hidden; }
+
 .project-info { padding: 24px; }
 
 .project-info h3 {
@@ -343,6 +345,15 @@ h2::after {
 .project-link:hover::after { transform: translateX(4px); }
 
 /* 子页面：详情大图样式 (新增) */
+.project-detail-card { padding: 40px; }
+
+.project-detail-desc {
+  max-width: 800px;
+  margin: 30px auto;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
 .project-img {
   display: block;
   width: 100%;             /* 强制宽度撑满容器 */
@@ -358,7 +369,7 @@ h2::after {
 /* =========================================
    6. Documents & Buttons
    ========================================= */
-.publish-links-wrapper { text-align: center; }
+.publish-links-wrapper { text-align: center; margin-top: 40px; }
 
 .publish-links {
   display: inline-flex;
