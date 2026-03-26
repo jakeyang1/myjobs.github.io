@@ -38,7 +38,6 @@
       "tags": ["Knowledge Base", "Markdown", "技术沉淀", "持续学习"]
     }
   },
-  },
   "project1": {
     "title": "HTDW4438 OpenDog 四足机器人",
     "desc": "HTDW4438 OpenDog 是一个全栈开源四足机器人项目，核心目标是把强化学习步态稳定落地到真实机器人。项目链路覆盖机械结构、URDF建模、仿真训练、策略部署与实机调试。<br><br>仓库结构参考：<br>1）1.Hardware：机器人机械文件、URDF与网格资源；<br>2）2.Software：livelybot_sdk实机通信与控制脚本；<br>3）3.Document / 4.Paper：BOM、手册、参考论文与设计资料。<br><br>训练与控制链路由三仓协同构成：<br>1）HTDW4438-AMP：动作先验与强化学习训练流程；<br>2）HTDW4438_HIMloco：面向稳定行走的策略适配与运动控制优化；<br>3）HTDW4438_Isaacgym：GPU并行仿真训练、策略回放与导出。<br><br>通过上述流程，形成“机械/URDF → 仿真训练 → Sim2Real部署”的完整闭环，支持从策略迭代到实机验证的持续开发。",
