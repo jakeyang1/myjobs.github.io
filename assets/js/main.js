@@ -59,6 +59,7 @@
   ];
 
   const TIMELINE_EVENTS = [
+    'timeline.event6',
     'timeline.event5',
     'timeline.event4',
     'timeline.event3',
