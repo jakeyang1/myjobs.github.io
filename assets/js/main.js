@@ -1,7 +1,6 @@
 (() => {
   const PROJECT_TAG_LIBRARY = {
     ROBOTICS: 'Robotics',
-    EMBEDDED: 'Embedded Systems',
     REINFORCEMENT_LEARNING: 'Reinforcement Learning',
     SIM2REAL: 'Sim2Real',
     DEPLOYMENT: 'Deployment',
@@ -130,8 +129,6 @@
   const CONTACT_LINKS = [
     { icon: 'fab fa-bilibili', key: 'contact.bilibili', link: 'https://space.bilibili.com/385516781/upload/video' },
     { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/Lain-Ego0' },
-    { icon: 'fab fa-twitter', key: 'contact.twitter', link: 'https://x.com/Lain_Ego0' },
-    { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/hua-99-50-21' },
   ];
 
   function qs(selector, root = document) {
