@@ -13,8 +13,6 @@
     "title": "你好，我是李",
     "desc": "计算机科学专业，就业已有3年，目前于联想新视界北京有限公司担任系统运维工程师<br>擅长包括Linux,桌面技术,服务器相关的技术支持<br>致力于向数据中心架构师进阶，持续钻研云原生与自动化技术<br>邮箱：3133549614@qq.com"
   },
-
-
   "projects": {
     "title": "个人项目",
     "imgAlt": "项目图片",
@@ -77,97 +75,86 @@
     "btnCode": "代码仓库",
     "btnDoc": "在线文档",
     "item1": {
-    "title": "BRS-并联四足机器人",
-    "desc": "BLACK☆ROCK SHOOTER，全栈完成的并联结构四足机器人项目，完整方案全部开源，参加了2025年ROBOCON全国赛。",
-    "tags": ["Robotics", "Mechanical Design", "Open Source"]
-  },
-  "item2": {
-    "title": "SliverWolf 桌面级四足机器人",
-    "desc": "使用9g小型舵机的直驱位控串联四足，接入IMU控制、语音控制，完成多种步态与机械臂协同取物功能。",
-    "tags": ["STM32", "Voice Control", "IMU", "Robotic Arm"]
-  },
-  "item3": {
-    "title": "四足机器人飞书知识库",
-    "desc": "赛后详细编写的四足机器人研发知识库，覆盖从基础认知到实践开发、强化学习应用的全流程内容",
-    "tags": ["Documentation", "Knowledge Sharing"]
-  },
-  "item4": {
-    "title": "ROBOCON 2024 R1 机器人",
-    "desc": "ROBOCON 2024 比赛 R1 机器人的底层控制代码仓库，包含机械方案、全向底盘运动学解算与任务机构逻辑。",
-    "tags": ["Robocon", "STM32", "C", "Chassis Control"]
-  },
-  "item5": {
-    "title": "3508足式机器人驱动验证平台",
-    "desc": "基于 DJI 3508 无刷减速电机的四足机器人驱动方案，参加2022-2025年多届 ROBOCON 全国赛。",
-    "tags": ["Motor Control", "DJI", "Legged Robot"]
-  },
-  "item6": {
-    "title": "HTDW4438 HIMloco",
-    "desc": "HTDW4438 机器人的 HIMloco 运动控制与部署项目，覆盖训练策略迁移与实机验证流程。",
-    "tags": ["RL", "Locomotion", "Sim2Real", "Deployment"]
-  },
-  "item7": {
-    "title": "HTDW4438 OpenDog",
-    "desc": "HTDW4438 机器人的实物控制与部署代码，包含机械结构设计、控制算法实现与系统集成测试。",
-    "tags": ["Robotics", "Mechanical Design", "C++", "Robotics Hardware"]
-  },
-  "item8": {
-    "title": "ROBOCON2024-PPS",
-    "desc": "ROBOCON 2024 PPS 相关机器人项目代码仓库，包含比赛任务逻辑与控制实现。",
-    "tags": ["Robocon", "Robot Control", "Competition"]
-  },
-  "item9": {
-    "title": "LocoWiki",
-    "desc": "轻量化开源 Wiki 与知识管理项目，聚焦结构化笔记组织、快速检索与持续沉淀。",
-    "tags": ["Wiki", "Knowledge Base", "Productivity"]
-  }
-
-
-
+      "title": "BRS-并联四足机器人",
+      "desc": "BLACK☆ROCK SHOOTER，全栈完成的并联结构四足机器人项目，完整方案全部开源，参加了2025年ROBOCON全国赛。",
+      "tags": ["Robotics", "Mechanical Design", "Open Source"]
+    },
+    "item2": {
+      "title": "SliverWolf 桌面级四足机器人",
+      "desc": "使用9g小型舵机的直驱位控串联四足，接入IMU控制、语音控制，完成多种步态与机械臂协同取物功能。",
+      "tags": ["STM32", "Voice Control", "IMU", "Robotic Arm"]
+    },
+    "item3": {
+      "title": "四足机器人飞书知识库",
+      "desc": "赛后详细编写的四足机器人研发知识库，覆盖从基础认知到实践开发、强化学习应用的全流程内容",
+      "tags": ["Documentation", "Knowledge Sharing"]
+    },
+    "item4": {
+      "title": "ROBOCON 2024 R1 机器人",
+      "desc": "ROBOCON 2024 比赛 R1 机器人的底层控制代码仓库，包含机械方案、全向底盘运动学解算与任务机构逻辑。",
+      "tags": ["Robocon", "STM32", "C", "Chassis Control"]
+    },
+    "item5": {
+      "title": "3508足式机器人驱动验证平台",
+      "desc": "基于 DJI 3508 无刷减速电机的四足机器人驱动方案，参加2022-2025年多届 ROBOCON 全国赛。",
+      "tags": ["Motor Control", "DJI", "Legged Robot"]
+    },
+    "item6": {
+      "title": "HTDW4438 HIMloco",
+      "desc": "HTDW4438 机器人的 HIMloco 运动控制与部署项目，覆盖训练策略迁移与实机验证流程。",
+      "tags": ["RL", "Locomotion", "Sim2Real", "Deployment"]
+    },
+    "item7": {
+      "title": "HTDW4438 OpenDog",
+      "desc": "HTDW4438 机器人的实物控制与部署代码，包含机械结构设计、控制算法实现与系统集成测试。",
+      "tags": ["Robotics", "Mechanical Design", "C++", "Robotics Hardware"]
+    },
+    "item8": {
+      "title": "ROBOCON2024-PPS",
+      "desc": "ROBOCON 2024 PPS 相关机器人项目代码仓库，包含比赛任务逻辑与控制实现。",
+      "tags": ["Robocon", "Robot Control", "Competition"]
+    },
+    "item9": {
+      "title": "LocoWiki",
+      "desc": "轻量化开源 Wiki 与知识管理项目，聚焦结构化笔记组织、快速检索与持续沉淀。",
+      "tags": ["Wiki", "Knowledge Base", "Productivity"]
+    }
   },
   "timeline": {
     "title": "经历时间轴",
-    
     "event1": {
       "date": "2023.06-2025.01",
       "title": "加入安徽东科智行有限公司担任桌面运维工程师",
       "desc": "负责公司各部门的终端设备维护，包括门禁、打印机，扫描巴枪等,保障机房基础环境的日常巡检和网络核心设备7×24小时稳定运行。"
     },
-
-
     "event2": {
       "date": "2023.07",
       "title": "根据公司要求考取低压电工证书",
       "desc": ""
     },
-
-    
     "event3": {
       "date": "2025.02-至今",
       "title": "加入联想新视界北京科技有限公司担任系统运维工程师",
       "desc": "主要负责公司机房服务器及各部门业务系统的日常运维工作，同时根据业务部门的需求编写和维护shell基础运维脚本，来确保服务器的巡检、日志检查和业务流程的上线"
     },
-
-     "event4": {
+    "event4": {
       "date": "2025.09",
       "title": "根据公司要求考取登高作业证书和安全员证书",
       "desc": ""
-
-     "event5": {
+    },
+    "event5": {
       "date": "2025.12",
       "title": "成人高考2025年12月通过,于2026年3月成为上海大学计算机科学专业的学生",
       "desc": ""
-    },
-    },
+    }
   },
   "skills": {
-    "skills": {
     "title": "技术栈",
     "os": "操作系统与底层",
     "infrastructure": "IT基础架构",
     "cloud": "云原生与自动化",
     "tools": "监控与运维工具"
-  }
+  },
   "contact": {
     "title": "联系我",
     "bilibili": "哔哩哔哩",
