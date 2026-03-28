@@ -21,7 +21,7 @@
 
   const PROJECTS = [
     {
-      img: 'assets/images/opendog-cover.png',
+      img: 'assets/images/Data-center.jpg',
       titleKey: 'projects.item1.title',
       descKey: 'projects.item1.desc',
       tags: [PROJECT_TAG_LIBRARY.LINUX, PROJECT_TAG_LIBRARY.SHELL, PROJECT_TAG_LIBRARY.AUTOMATION, PROJECT_TAG_LIBRARY.MONITORING],
