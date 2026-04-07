@@ -52,7 +52,7 @@
 
   // 这里修改为只有4个知识库项目，彻底解决乱码问题！
   const OPEN_SOURCE_ITEMS = [
-    { key: 'opensource.item1', linkCode: null, linkDoc: '#' },
+    { key: 'opensource.item1', linkCode: null, linkDoc: 'https://github.com/jakeyang1/myworknotebook/blob/main/README.md' },
     { key: 'opensource.item2', linkCode: null, linkDoc: '#' },
     { key: 'opensource.item3', linkCode: null, linkDoc: '#' },
     { key: 'opensource.item4', linkCode: null, linkDoc: '#' },
