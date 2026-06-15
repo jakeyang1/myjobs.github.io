@@ -58,7 +58,9 @@
     { key: 'opensource.item4', linkCode: null, linkDoc: '#' },
   ];
 
+    // 时间节点修改！
   const TIMELINE_EVENTS = [
+    'timeline.event7',
     'timeline.event6',
     'timeline.event5',
     'timeline.event4',
